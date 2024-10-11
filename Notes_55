@@ -1,0 +1,39 @@
+Session 55
+----------
+
+Dependencies ---> download required dependency jar for project
+plugins ---> to compile and run the project
+
+1)	Maven compiler plugin
+2)	Maven surefire plugin
+
+<build>
+	<pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.13.0</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.5.1</version>
+          <configuration>
+			<suiteXmlFiles>
+				<suiteXmlFile>master.xml</suiteXmlFile>
+			</suiteXmlFiles>
+		  </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>	
+  </build>
+  
+  
+  Install Maven
+  -------------
+  
+  Download and put in Program Files
+  add C:\Program Files\apache-maven-3.9.9\bin to env variables/path
+  
+  

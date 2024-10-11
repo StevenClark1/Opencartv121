@@ -1,0 +1,12 @@
+session50-create hybrid framework
+---------------------------------
+
+Loggin - record all the events in the form of text
+
+Log Levels - All < Trace < Debug < Info < Warn < Error < Fatal < Off
+
+Appenders - where to generate the logs (Console or File)
+Loggers - what type of logs to generate (All < Trace < Debug < Info < Warn < Error < Fatal < Off)
+
+import org.apache.logging.log4j.LogManager;  //Log4j
+import org.apache.logging.log4j.Logger;  //Log4j
